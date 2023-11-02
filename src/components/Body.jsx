@@ -5,7 +5,7 @@ function Body() {
   return (
     <>
     <div className=' min-h-screen   m-auto pt-5'>
-
+    Helo
      <Outlet></Outlet> 
    
     </div>
