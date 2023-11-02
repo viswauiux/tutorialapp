@@ -1,12 +1,11 @@
 import ReactDom from "react-dom/client";
 import App from "./App";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Body from "./Components/Body";
-import Footer from "./Components/Footer";
+import Boody from "./Components/Boody";
 
 import Home from "./Components/Home";
 import Whyus from "./Components/Whyus";
-import Courses from "./Components/Courses";
+import Coourses from "./Components/Coourses";
 import Quiz from "./Components/Quiz";
 import Testimonals from "./Components/Testimonals";
 import Contact from "./Components/Contact";
@@ -30,7 +29,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Body />,
+        element: <Boody />,
         children: [
           {
             path: "/",
@@ -42,7 +41,7 @@ const router = createBrowserRouter([
           },
           {
             path: "courses",
-            element: <Courses />,
+            element: <Coourses />,
             children: [
               {
                 path: "physics",

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 
-function Courses() {
+function Coourses() {
     const btn ='h-10 w-32 flex justify-center items-center bg-teal-400 rounded-xl text-white hover:bg-teal-700'
   return (
     <div className='container m-auto top-8'>
@@ -15,4 +15,4 @@ function Courses() {
   )
 }
 
-export default Courses
+export default Coourses
