@@ -1,7 +1,7 @@
 import ReactDom from "react-dom/client";
 import App from "./App";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Body from "./Components/Body";
+import Body from "../src/Components/Body";
 import Home from "./Components/Home";
 import Whyus from "./Components/Whyus";
 import Courses from "./Components/Courses";
