@@ -16,7 +16,7 @@ function PhysicsVideos() {
         ))
       }
     </div>
-    <Link to={"/quiz/physicsquiz"}> <button className={quizbtn}>Take a Quiz</button></Link>
+    <Link to={"/quiz"}> <button className={quizbtn}>Take a Quiz</button></Link>
 
     </>
   )
