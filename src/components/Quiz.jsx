@@ -6,7 +6,7 @@ function Quiz() {
     <div className='container m-auto top-8'>
         <div className='flex  justify-between mx-96'>
         <Link className={quizbtn}  to='/quiz'>Physics Quiz</Link>
-        <Link className={quizbtn} to='mathematicsquiz'>Mathamatics Quiz</Link>
+        <Link className={quizbtn} to='mathematicsquiz'>Mathematics Quiz</Link>
         <Link className={quizbtn} to='socialquiz'>Social Quiz</Link>
         </div>
         <Outlet/>

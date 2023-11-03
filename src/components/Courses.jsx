@@ -7,7 +7,7 @@ function Coourses() {
     <div className='container m-auto top-8'>
         <div className='flex justify-between mx-96'>
         <Link className={btn}  to='physics'>Physics</Link>
-        <Link className={btn} to='mathematics'>Mathamatics</Link>
+        <Link className={btn} to='mathematics'>Mathematics</Link>
         <Link className={btn} to='social'>Social</Link>
         </div>
         <Outlet/>
