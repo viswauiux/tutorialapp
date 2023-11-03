@@ -23,6 +23,7 @@ function MathsQuiz() {
   return (
     <>
       <div className="relative">
+      <h1 className="text-center font-bold text-2xl">Mathematics Quiz</h1>
         {data[1].maths.quiz.map((que, index) => (
           <QuizLayout
             que={que}

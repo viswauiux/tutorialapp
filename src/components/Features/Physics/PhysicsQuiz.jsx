@@ -27,6 +27,7 @@ function PhysicsQuiz() {
   return (
     <>
       <div className="relative">
+        <h1 className="text-center font-bold text-2xl">Physics Quiz</h1>
         {data[0].physics.quiz.map((que, index) => (
           <QuizLayout
             key={index}

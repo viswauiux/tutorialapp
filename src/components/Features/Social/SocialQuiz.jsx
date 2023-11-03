@@ -24,6 +24,7 @@ function SocialQuiz() {
   return (
     <>
       <div className="relative">
+      <h1 className="text-center font-bold text-2xl">Social Studies Quiz</h1>
         {data[2].social.quiz.map((que, index) => (
           <QuizLayout
             que={que}

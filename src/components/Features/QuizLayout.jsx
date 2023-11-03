@@ -1,4 +1,5 @@
 import React from "react";
+import Options from "./Options";
 
 function QuizLayout({que,index,submitHandler}) {
     function answerHandler(e,queAns,index) {
@@ -14,47 +15,7 @@ function QuizLayout({que,index,submitHandler}) {
         <div
           className="flex gap-4 mt-3"
           onChange={(e) => answerHandler(e, que, index)}
-        >
-          <input
-            type="radio"
-            id={que.queid}
-            name={que.queid}
-            value={que.options.option1}
-          />
-          <label style={{ textTransform: "capitalize" }} htmlFor={que.queid}>
-            {" "}
-            {que.options.option1}
-          </label>
-          <input
-            type="radio"
-            id={que.queid}
-            name={que.queid}
-            value={que.options.option2}
-          />
-          <label style={{ textTransform: "capitalize" }} htmlFor={que.queid}>
-            {" "}
-            {que.options.option2}
-          </label>
-          <input
-            type="radio"
-            id={que.queid}
-            name={que.queid}
-            value={que.options.option3}
-          />
-          <label style={{ textTransform: "capitalize" }} htmlFor={que.queid}>
-            {" "}
-            {que.options.option3}
-          </label>
-          <input
-            type="radio"
-            id={que.queid}
-            name={que.queid}
-            value={que.options.option4}
-          />
-          <label style={{ textTransform: "capitalize" }} htmlFor={que.queid}>
-            {" "}
-            {que.options.option4}
-          </label>
+        >{que.options.map((op)=>(<Options que={que} op={op} />))}
         </div>
       </div>
     </>

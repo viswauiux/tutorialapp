@@ -91,7 +91,7 @@ const router = createBrowserRouter([
             element: <Quiz />,
             children: [
                 {
-                  path: "physicsquiz",
+                  path: "/quiz",
                   element: <PhysicsQuiz />,
                 },
                 {
